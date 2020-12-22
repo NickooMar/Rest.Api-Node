@@ -4,8 +4,8 @@ const router = Router()
 //Routes
 router.get('/test', (req, res) => {
     const data ={ 
-        "name": "fazt",
-        "websdite" : "Faztweb.com"
+        "name": "someSite",
+        "website" : "someSite.com"
     };
     res.json(data);
 });
